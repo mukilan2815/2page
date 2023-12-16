@@ -1,9 +1,9 @@
 import { View } from 'react-native';
 import OrderTrackingPage from './Pages/Cart';
-import Dashboard from './Pages/Dashboard';
+import FilterPage from './Pages/FilterPage';
 export default function App() {
   return (
-    <Dashboard />
+    <FilterPage />
   );
 }
 

@@ -30,7 +30,6 @@ const FilterPage = () => {
   return (
     <SafeAreaView style={styles.container}>
       <View style={styles.mainContainer}>
-        {/* Left Section */}
         <View style={styles.leftSection}>
           <List.Section>
             <List.Subheader>Filter Category</List.Subheader>
@@ -49,8 +48,6 @@ const FilterPage = () => {
             />
           </List.Section>
         </View>
-
-        {/* Right Section */}
         <View style={styles.rightSection}>
           {selectedCategory ? (
             <>
